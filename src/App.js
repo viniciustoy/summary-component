@@ -1,9 +1,10 @@
 import "./App.css";
+import { Summary } from "./component/Summary";
 
 function App() {
   return (
     <div className="App">
-      <h1>Ola mundo !</h1>
+      <Summary />
     </div>
   );
 }
